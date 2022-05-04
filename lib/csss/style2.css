@@ -1,0 +1,128 @@
+*{
+    margin: 0;padding: 0;
+}
+body {  
+    background-image: url(/lib/image/хъхъхъ.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+     height: 900px; 
+}
+
+.scale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.scale-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -1px 0;
+    background-color: rgb(255, 7, 255);
+    opacity: 0.2;
+}
+
+.scale-rectangle {
+    width: 10px;
+    flex-basis: 30px;
+    background-color: rgb(112, 113, 114);
+    opacity: 0.2;
+}
+
+.scale-done {
+    background-color: rgb(185, 209, 51);;
+    opacity: 1;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.wrapper {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 5% 2%;
+    background-color: rgb(201, 122, 155);
+    margin-top: 5px;
+}
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5%;
+    border: 5px solid rgb(55, 0, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.conteiner-botton {
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 40%;
+margin-top: 25px;
+}
+
+.conteiner-botton a {
+    text-decoration: none;
+    color: rgb(12, 250, 83);
+    width: 30%;
+}
+
+button {
+    all: unset;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(115, 65, 134);
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 5px -2px rgb(214, 214, 214);
+}
+
+textarea {
+    resize: none;
+}
+
+.submite {
+    all: unset;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(5, 233, 221);
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+}
+
+.submite:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 5px -2px rgb(0, 0, 0);
+}
